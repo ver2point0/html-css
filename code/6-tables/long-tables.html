@@ -2,8 +2,35 @@
 <html>
   <head>
     <title>Long tables</title>
+    <style type="text/css">
+      table {
+        border: none;
+      }
+      thead th {
+        border-bottom: 2px solid #444444;
+        width: 120px;
+      }
+      tfoot td {
+        border-top: 1px solid #444444;
+      }
+    </style>
   </head>
   <body>
-    
+    <table>
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>Income</th>
+          <th>Expenditure</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>1st January</th>
+          <td>250</td>
+          <td>36</td>
+        </tr>
+      </tbody>
+    </table>
   </body>
 </html>
